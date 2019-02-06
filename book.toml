@@ -1,0 +1,7 @@
+[book]
+title = "alfonsoluna.io"
+author = "Alfonso Luna"
+description = "The example book covers examples."
+
+[build]
+build-dir = "docs"
