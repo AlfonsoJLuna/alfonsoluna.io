@@ -1,38 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<title>alfonsoluna.io</title>
-		<style type="text/css">
-			html {
-				height: 100%;
-				background-image: url("background.jpg");
-				background-color: #000;
-				background-position: center;
-				background-repeat: no-repeat;
-				background-size: cover;
-				
-			}
+<html class="has-navbar-fixed-top">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>alfonsoluna.io</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
 
-			body {
-				margin: 0;
-				padding: 0;
-				height: 100%;
-				background-color:rgba(35,35,40,0.75);
-			}
+      .has-bg-img {
+        background: url('images/background.png') center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
 
-			p {
-				color: #fff;
-				margin: 0;
-				padding-top: 50px;
-				text-align: center;
-				font-family: sans-serif;
-				font-size: 20px;
-			}
-		</style>
-	</head>
- 	<body>
-		<p>Coming soon!</p>
-  	</body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar is-fixed-top is-black" role="navigation" aria-label="main navigation">
+      <div class="container">
+        <div class="navbar-brand is-size-4">
+          <a class="navbar-item" href="#top"><strong>alfonsoluna.io</strong></a>  
+          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item" href="#about">ABOUT</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="top" class="hero is-fullheight-with-navbar is-dark has-bg-img">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title is-1">Coming soon!</h1>
+          <h2 class="subtitle is-3">Stay tuned.</h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h1 class="title has-text-centered">ABOUT</h1>
+        <p><a href="https://twitter.com/AlfonsoJLuna">Follow me</a> to get the latest updates.</p>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <p>2014 - <span id="year">2018</span> © Alfonso Luna</span></p>
+      </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+        if ($navbarBurgers.length > 0) {
+          $navbarBurgers.forEach( el => {
+            el.addEventListener('click', () => {
+              const target = el.dataset.target;
+              const $target = document.getElementById(target);
+              el.classList.toggle('is-active');
+              $target.classList.toggle('is-active');
+            });
+          });
+        }
+      });
+    </script>
+    <script>
+      document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+
+  </body>
 </html>
