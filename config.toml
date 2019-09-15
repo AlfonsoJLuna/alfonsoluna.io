@@ -1,0 +1,12 @@
+baseURL = "https://alfonsoluna.io/"
+languageCode = "en"
+publishDir = "docs"
+theme = "mytheme"
+title = "alfonsoluna.io"
+
+[params]
+	authorName = "Alfonso Luna"
+	avatar = "https://avatars1.githubusercontent.com/u/10271168"
+	description = "Electronics, software and random stuff"
+	githubName = "AlfonsoJLuna"
+	twitterName = "AlfonsoJLuna"
