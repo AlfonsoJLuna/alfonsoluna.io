@@ -21,5 +21,25 @@
   </description>
     </item>
     
+    <item>
+      <title>Posts</title>
+      <link>https://alfonsoluna.io/posts/</link>
+      <pubDate>Wed, 21 Feb 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://alfonsoluna.io/posts/</guid>
+      <description>POSTS Coming soon!
+  </description>
+    </item>
+    
+    <item>
+      <title>Store</title>
+      <link>https://alfonsoluna.io/store/</link>
+      <pubDate>Wed, 21 Feb 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://alfonsoluna.io/store/</guid>
+      <description>STORE Coming soon!
+  </description>
+    </item>
+    
   </channel>
 </rss>
