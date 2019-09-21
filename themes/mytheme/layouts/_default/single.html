@@ -1,7 +1,12 @@
 {{ partial "head.html" . }}
 {{ partial "navbar.html" . }}
 
-{{ .Content }}
+<section class="section">
+    <div class="container">
+        <h1 class="title has-text-centered">{{ .Title }}</h1>
+        {{ .Content }}
+    </div>
+</section>
 
 {{ partial "footer.html" . }}
 {{ partial "script.html" . }}
