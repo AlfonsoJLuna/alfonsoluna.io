@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>alfonsoluna.io</title>
+    <title>Home on alfonsoluna.io</title>
     <link>https://alfonsoluna.io/</link>
-    <description>Recent content on alfonsoluna.io</description>
+    <description>Recent content in Home on alfonsoluna.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Feb 2018 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 09 Feb 2018 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://alfonsoluna.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,8 +17,7 @@
       <pubDate>Wed, 21 Feb 2018 00:00:00 +0100</pubDate>
       
       <guid>https://alfonsoluna.io/about/</guid>
-      <description>ABOUT Follow me to get the latest updates.
-  </description>
+      <description>Under construction.</description>
     </item>
     
     <item>
@@ -27,18 +26,7 @@
       <pubDate>Wed, 21 Feb 2018 00:00:00 +0100</pubDate>
       
       <guid>https://alfonsoluna.io/posts/</guid>
-      <description>POSTS Coming soon!
-  </description>
-    </item>
-    
-    <item>
-      <title>Store</title>
-      <link>https://alfonsoluna.io/store/</link>
-      <pubDate>Wed, 21 Feb 2018 00:00:00 +0100</pubDate>
-      
-      <guid>https://alfonsoluna.io/store/</guid>
-      <description>STORE Coming soon!
-  </description>
+      <description>Under construction.</description>
     </item>
     
   </channel>
