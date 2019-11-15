@@ -1,6 +1,6 @@
 +++
 date = 2018-02-21
-title = "Posts"
+title = "POSTS"
 description = "Posts"
 +++
 
