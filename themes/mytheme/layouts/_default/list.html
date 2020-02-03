@@ -1,12 +1,11 @@
-{{ partial "head.html" . }}
-{{ partial "navbar.html" . }}
+{{ partial "top/basic-top.html" . }}
 
 <section class="section">
     <div class="container">
-        <h1 class="title has-text-centered">{{ .Title }}</h1>
+        <h1 class="title has-text-centered is-uppercase">{{ .Title }}</h1>
         {{ .Content }}
+        <p>Under construction.</p>
     </div>
 </section>
 
-{{ partial "footer.html" . }}
-{{ partial "script.html" . }}
+{{ partial "bottom/basic-bottom.html" . }}

@@ -1,12 +1,22 @@
-{{ partial "head.html" . }}
-{{ partial "navbar.html" . }}
+{{ partial "top/basic-top.html" . }}
 
 <section class="section">
     <div class="container">
-        <h1 class="title has-text-centered">{{ .Title }}</h1>
+        <h1 class="title has-text-centered is-uppercase">{{ .Title }}</h1>
         {{ .Content }}
     </div>
 </section>
 
-{{ partial "footer.html" . }}
-{{ partial "script.html" . }}
+        <!---<p>{{.Date.Format "2006-01-02"}}</p>
+            <div class="post-filter">
+            {{ $taxonomy := "posts" }}
+            {{ with .Param $taxonomy }}
+                {{ range $index, $tag := . }}
+                    {{ with $.Site.GetPage (printf "/%s/%s" $taxonomy $tag) -}}
+                        <a class="post-tag-inactive" href="{{ .Permalink }}"># {{ $tag | urlize }}</a>
+                    {{- end -}}
+                {{- end -}}
+            {{ end }}
+        </div>--->
+
+{{ partial "bottom/basic-bottom.html" . }}

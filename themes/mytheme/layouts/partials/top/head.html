@@ -3,14 +3,29 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000000">
+
+
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000000">
+
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
 	<meta property="og:image" content="/images/background.png"/>
-	<title>{{ .Title }} / {{ .Site.Title }}</title>
+
+	<title>{{ .Title }} | {{ .Site.Title }}</title>
+
 	{{ if .Description }}
 		<meta name="description" content="{{ .Description }}">
 	{{ end }}
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-	<link rel="stylesheet" href="style.css">
+	
+	<link rel="stylesheet" href="/bulma.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" crossorigin="anonymous">
+	<link rel="stylesheet" href="/style.css">
 	<link rel="icon" type="image/png" href="{{ .Site.Params.Avatar }}">
 	<link rel="alternate" type="application/rss+xml" href="/index.xml" title="{{ .Site.Title }}">
 	<link rel="feed" type="application/rss+xml" href="/index.xml" title="{{ .Site.Title }}">

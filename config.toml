@@ -12,3 +12,8 @@ title = "alfonsoluna.io"
 	youtubeProfile = "https://www.youtube.com/channel/UCeMzdV89IlbByrYXtOXnoEA"
 	linkedinProfile = "https://www.linkedin.com/in/alfonsojluna/"
 	tindieProfile = "https://www.tindie.com/stores/alfonsojluna/"
+
+[taxonomies]
+	project = "projects"
+	tutorial = "tutorials"
+	post = "posts"

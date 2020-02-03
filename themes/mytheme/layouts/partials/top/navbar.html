@@ -1,7 +1,7 @@
 <nav class="navbar is-fixed-top is-black" role="navigation" aria-label="main navigation">
 	<div class="container">
 		<div class="navbar-brand is-size-4">
-    		<a class="navbar-item" href="/"><strong>alfonsoluna.io</strong></a>  
+    		<a class="navbar-item" href="/"><strong>{{ .Site.Title }}</strong></a>  
       		<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
         		<span aria-hidden="true"></span>
         		<span aria-hidden="true"></span>
@@ -10,9 +10,11 @@
     	</div>
     	<div id="navbarBasicExample" class="navbar-menu">
     		<div class="navbar-end">
-				<a class="navbar-item" href="/">HOME</a>
-				<a class="navbar-item" href="/posts">POSTS</a>
-				<a class="navbar-item" href="/about">ABOUT</a>
+				<a class="navbar-item is-tab {{ if .IsHome }}is-active{{ end }}" href="/">HOME</a>
+				<a class="navbar-item is-tab {{ if or (findRE "/projects/" .URL) .Params.projects }}is-active{{ end }}" href="/projects/">PROJECTS</a>
+				<a class="navbar-item is-tab {{ if or (findRE "/tutorials/" .URL) .Params.tutorials }}is-active{{ end }}" href="/tutorials/">TUTORIALS</a>
+				<a class="navbar-item is-tab {{ if or (findRE "/posts/" .URL) .Params.posts }}is-active{{ end }}" href="/posts/">POSTS</a>
+				<a class="navbar-item is-tab {{ if eq .Title "About" }}is-active{{ end }}" href="/about/">ABOUT</a>
 				<div class="navbar-item">
 					<div class="buttons">
 						<a href="{{ .Site.Params.tindieProfile }}" target="_blank" class="button is-warning">

@@ -1,0 +1,10 @@
+{{ $page_url := .URL }}
+
+<div class="post-filter">
+    <a class="{{ if eq .Title "Posts" }}post-tag-active{{else}}post-tag-inactive{{ end }}" href="/posts/">all</a>
+    {{ range $name, $taxonomy := .Site.Taxonomies.posts }}
+        {{ $name_url := $name | urlize }}
+        {{ $name_url := printf "%s%s%s" "/" $name_url "/" }}
+        <a class="{{ if findRE $name_url $page_url }}post-tag-active{{else}}post-tag-inactive{{ end }}" href="{{ "/posts/" | relLangURL }}{{ $name | urlize }}"># {{ $name }}</a>
+    {{ end }}
+</div>

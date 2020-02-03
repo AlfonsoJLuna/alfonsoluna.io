@@ -1,9 +1,9 @@
 html {
   scroll-behavior: smooth;
-  }
+}
 
 .has-bg-img {
-    background: url('images/background.png') center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  background: url('images/background.png') center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
