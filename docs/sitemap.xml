@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://alfonsoluna.io/about/</loc>
-    <lastmod>2018-02-21T00:00:00+01:00</lastmod>
+    <loc>https://alfonsoluna.io/hello-world/</loc>
+    <lastmod>2020-02-16T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://alfonsoluna.io/</loc>
-    <lastmod>2018-02-09T00:00:00+01:00</lastmod>
+    <lastmod>2020-02-16T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://alfonsoluna.io/posts/</loc>
+    <lastmod>2020-02-16T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfonsoluna.io/posts/web/</loc>
+    <lastmod>2020-02-16T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfonsoluna.io/about/</loc>
   </url>
   
   <url>

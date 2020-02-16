@@ -1,0 +1,19 @@
+{{ partial "top/basic-top.html" . }}
+
+{{ partial "hero-taxonomy.html" . }}
+
+{{ partial "posts/filter.html" . }}
+
+<section class="section">
+	<div class="container">
+		<div class="columns is-multiline is-variable is-4">
+			{{ range .Site.Pages.ByDate.Reverse }}
+				{{ if .Params.posts }}
+					{{ partial "posts/snippet.html" . }}
+				{{ end }}
+			{{ end }}
+		</div>
+	</div>
+</section>
+
+{{ partial "bottom/basic-bottom.html" . }}

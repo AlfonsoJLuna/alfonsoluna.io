@@ -1,8 +1,16 @@
-<div class="post-snippet">
-    <div class="post-date">
-        {{.Date.Format "2006-01-02"}}
-    </div>
-    <div class="post-title">
-        <a class="has-text-dark" href="{{.Permalink}}">{{.Title}}</a>
-    </div>
+<div class="column is-half-tablet is-one-third-desktop">
+    <a class="has-text-dark" href="{{ .Permalink }}">
+        <div class="card">
+            <div class="card-image">
+                <figure class="image is-5by3">
+                    <img src="/images/posts{{ .RelPermalink }}background.png" alt="">
+                </figure>
+            </div>
+            <div class="card-content">
+                <p class="title is-size-4">{{ .Title }}</p>
+                <p class="subtitle is-size-6">{{ .Description }}</p>
+                <p class="has-text-grey is-size-6">{{ .Date.Format "02/01/2006" }}</p>
+            </div>
+        </div>
+    </a>
 </div>
