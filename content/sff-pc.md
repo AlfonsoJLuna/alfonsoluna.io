@@ -5,15 +5,15 @@ description = "Building a Small Form Factor computer"
 posts = ["PC"]
 +++
 
-It was time to upgrade my desktop computer, and for this build I wanted to assemble a PC as small and silent as possible, while keeping it relatively powerful and with enough space for a full-fledged graphics card.
+It was time to upgrade my desktop computer, and for this I wanted to assemble a PC as small and silent as possible, while keeping it relatively powerful and with enough space for a full-fledged graphics card.
 
-The term Small Form Factor refers to desktop computers using smaller size components in order to minimize their volume. To achiveve that, these computers usually rely on form factors that are smaller than the typical ones. For example, they may use a mini-ITX motherboard instead of larger micro-ATX or ATX ones, a SFX power supply instead of an ATX one, smaller hard disk drives, and so on.
+The term Small Form Factor refers to desktop computers which use smaller size components in order to minimize their volume. To achieve that, these computers usually rely on form factors that are smaller than the typical ones. For example, they may use a mini-ITX motherboard instead of larger micro-ATX or ATX ones, a SFX power supply instead of an ATX one, smaller hard disk drives, and so on.
 
 This reduction in size comes at a cost, though. Mini-ITX boards often have just one PCI-e expansion port and two DIMM sockets, so you are more limited in how many expansion cards you can put in. Also, most SFF cases prioritize being small rather than having a good airflow, so there are more difficulties to dissipate the heat and to reduce the noise. We will see how these challenges were faced.
 
 ## The hardware
 
-I maintained some components of a previous build, while others were bought for the occasion.
+I maintained some components of a previous build, while others were bought for this project.
 
 ### The motherboard
 
@@ -25,7 +25,7 @@ The Noctua NH-L9i comes with a low profile NF-A9x14 fan that measures only 14mm 
 
 ![][motherboard]
 
-I reserved that fan for later usage with the graphics card. The space in the CPU side of the case would fit a fan with a larger thickness of up to 25mm, so the NF-A9x14 was replaced with a Noctua NF-B9 redux-1600 PWM fan:
+I saved that fan for later usage with the graphics card. The space in the CPU side of the case would fit a fan with a larger thickness of up to 25mm, so the NF-A9x14 was replaced with a Noctua NF-B9 redux-1600 PWM fan:
 
 ![][motherboard2]
 
@@ -35,9 +35,9 @@ This is important as the CPU fan speed will be regulated with the UEFI options w
 
 ### The disk drives
 
-This time I wanted to use only solid state drives in the M2 form factor. In addition to their great speed, being SSDs means that they have no moving parts and thus they are completely silent. They can also be installed directly into the M2 slots of the motherboard, avoiding the need to have the SATA data and power cables in the case.
+This time I wanted to use only solid state drives in the M2 form factor. In addition to their great speed, they have no moving parts and thus they are completely silent. They can also be installed directly into the M2 slots of the motherboard, avoiding the need to have the SATA data and power cables in the case.
 
-The motherboard has space for two M2 drives. Both have the PCIe lines routed so both can be used at full PCIe x4 speed. One is at the top with a nice heatsink, the other at the bottom with no heatsink at all:
+The motherboard has space for two M2 drives. They both have the PCIe lines routed so they can be used at full PCIe x4 speed. One is at the top with a nice heatsink, the other at the bottom with no heatsink at all:
 
 ![][ssd-top]
 
@@ -49,27 +49,27 @@ At first, I intended to fit one of them with a Samsung 970 EVO of 500GB for the 
 
 The Crucial MX500 was fitted at the bottom of the motherboard, where it had no heatsink. When moving files around, the disk overheated, the thermal throttling went into action, and the speed was significantly reduced in order to maintain the temperature under safe limits. Flipping the disks around didn't help, the MX500 continued overheating even with the heatsink.
 
-I'm also not sure if the heatsink does anything, actually. It comes with thermal pads to supposedly allow the heat transfer between the flash chips and the base of the heatsink, but the paper stickers on the disks won't allow to make a good thermal contact. I didn't want to remove these stickers as doing it may void the warranties of the disks.
+I'm not sure if the heatsink changes anything, actually. It comes with thermal pads that supposedly allow the heat transfer between the flash chips and the base of the heatsink, but the paper stickers on the disks won't allow to make a good thermal contact. I didn't want to remove these stickers as doing it may void the warranties of the disks.
 
-After some testing I became aware that the 970 EVO didn't have any problems with temperatures even on the bottom slot, so it seemed that the MX500 just normally generates more heat than the 970 EVO when in use. I had to return the MX500 and buy another 970 EVO, this one of 1TB. With this combination I didn't have more temperature issues even when stressing the disks.
+After some testing, I became aware that the 970 EVO didn't have any problems with temperatures even on the bottom slot, so it seemed that the MX500 just normally generates more heat than the 970 EVO when in use. I had to return the MX500 and buy another 970 EVO, this one of 1TB. With this combination I didn't have more temperature issues even when stressing the disks.
 
 ![These guys are fast!][disks-speed]
 
 ### The power supply
 
-At first, I went for the Corsair SF600 Gold power supply. Along with its small sister the SF450 Gold they were two of the nicest power supplies available at the time in the SFX form factor. They have good voltage regulation, great efficiency, fully modular cables and a semi-passive fan.
+At first, I went for the Corsair SF600 Gold power supply. Along with its small sister the SF450 Gold, they were two of the nicest power supplies available at the time in the SFX form factor. They have good voltage regulation, great efficiency, fully modular cables and a semi-passive fan.
 
 ![][psu]
 
 After installing it, the PSU was working well but I wasn't happy with the fan noise. In practice, the PSU wasn't really semi-passive. Even at idle loads, the fan started moving and making noise.
 
-There are two usual ways of regulating computer fans. The first one, typically used with 2-cable or 3-cable fans, is just varying the voltage supplied to the fan. More voltage means more speed, until the fans reaches its full speed at 12V. This is not the best method, as the curve between the applied voltage and the fan speed is not very linear. In fact, problems occurs when applying too little voltage to the fan. Until a minimum voltage is reached, the fan don't have enough power to start moving at all.
+There are two usual ways of regulating computer fans. The first one, typically used with 2-cable or 3-cable fans, is just varying the voltage supplied to the fan. More voltage means more speed, until the fans reaches its full speed at 12V. This is not the best method, as the curve between the applied voltage and the fan speed is not very linear. In fact, problems occur when applying too little voltage to the fan. Until a minimum voltage is reached, the fan doesn't have enough power to start moving at all.
 
 After some googling, it became evident that these PSUs were using the varying voltage method. This increases the minimum achievable speed of the fan. Having the 600W version of the PSU didn't help either, as it had a more agressive fan curve than the 450W version. So, even with too little load, the fan was always moving at noisy speeds.
 
 ![The SF600 Gold. Note that only two cables (red and black) are going to the fan.][2cables]
 
-Just a few months later, Corsair released new revisions of these PSUs, called the SF600 Platinum and the SF450 Platinum. There were only minor differences between the new Platinum versions and the old Gold ones. The PSUs were mostly the same, the Gold ones were already almost good enough to meet Platinum certifications requirements, but the fan system was improved and changed to a 4-cable fan with PWM controlled speed.
+Just a few months later, Corsair released new revisions of these PSUs, called the SF600 Platinum and the SF450 Platinum. There were only minor differences between the new Platinum versions and the old Gold ones. The PSUs were mostly the same, the Gold ones were already almost good enough to meet Platinum certification requirements, but the fan system was improved and changed to a 4-cable fan with PWM controlled speed.
 
 In this other method of fan speed control, the fan is always supplied with a 12V constant voltage, and the fan speed is regulated varying the duty cycle of a PWM signal. This is way better, especially when running the fan at very low speeds. It seems that you can make the fan run lower applying short 12V pulses than applying a continuous lower voltage.
 
@@ -83,7 +83,7 @@ The Platinum versions also came with better looking sleeved cables:
 
 ![Only three cables are needed!][cables]
 
-For more information about these power supplies I recommend to read the reviews from JonnyGuru:
+For more information about these power supplies I recommend the reviews from JonnyGuru:
 
 * [SF600 Gold]
 * [SF450 Gold]
@@ -91,13 +91,13 @@ For more information about these power supplies I recommend to read the reviews 
 
 ### The graphics card
 
-The graphics card is a Sapphire RX 480 NITRO+ 8GB that I already had from a previous build. I wanted to keep the same card as it is performant enough for my needs and its Linux drivers work especially well (at least compared to NVIDIA or older AMD cards).
+The graphics card is a Sapphire RX 480 NITRO+ 8GB that I already had from a previous build. I wanted to keep the same card as it is more than enough for my needs and its Linux drivers work especially well (at least compared to NVIDIA or older AMD cards).
 
 This NITRO+ version has an on-board switch which allows you to select between two BIOS. With the first BIOS the card runs at standard clocks, while with the second BIOS the frequency is overclocked. For this build I had to set the switch to use the first BIOS in order to reduce generated heat.
 
 ![The RX 480 in its original form.][gpu]
 
-After two years of use, just after the warranty expired, the fans started to make an annoying noise, even when idling. These fans were the most loud components of the computer by difference.
+After two years of use, just after the warranty expired, the fans started to make an annoying noise, even when idling. These fans were the loudest components of the computer by difference.
 
 I removed the stock fans and measured the distance available between the heatsink and the cover of the case:
 
@@ -137,7 +137,7 @@ And finally, the last step was creatively using zip ties to attach both fans to 
 
 ### The case
 
-The case is an A4-SFX from DAN Cases. With only 7.2L of volume, it allows installing a full-size graphics card on the back of the motherboard using a "sandwich" distribution. The case is manufactured by Lian Li which is well known for its quality alluminium cases.
+The case is an A4-SFX from DAN Cases. With only 7.2L of volume, it allows installing a full-size graphics card on the back of the motherboard using a "sandwich" distribution. The case is manufactured by Lian Li which is well known for its quality aluminium cases.
 
 ![The finished build (front view).][finished-pc-front]
 
@@ -153,7 +153,7 @@ In a previous build, with far better airflow I was able to overclock a i5-2500K 
 
 The i7-7700K IHS is not soldered. It has a not so good thermal paste between the die and the IHS, which significantly contributes to making the temperatures worse. This CPU can be "delidded", which means separating the IHS from the die and replacing the thermal compound with another with better thermal conductivity. I will consider doing that in the future but I didn't wanted to bother for now.
 
-The i7-7700K has a stock frequency of 4.2GHz, which goes up to 4.5GHz on turbo mode. With stock settings, when I started a stress test like prime95 the temperature quickly reached almost 100ºC and the thermal throttling was activated to avoid damage. I stopped the test quickly. Until I get the processor delidded, the solution will be to underclock the processor.
+The i7-7700K has a stock frequency of 4.2GHz, which goes up to 4.5GHz on turbo mode. With stock settings, when I started a stress test like prime95, the temperature quickly reached almost 100ºC and the thermal throttling was activated to avoid damage. I stopped the test quickly. So the solution will be to underclock the processor until I delid it.
 
 After playing with the voltage and the frequency and running stress tests for days, I found the sweet spot to be at 4GHz of maximum frequency with a negative voltage offset of -0.05V. Lower voltage made the system unstable at 4GHz. 4.1GHz required higher voltage to be stable and the temperatures were too high.
 
@@ -167,13 +167,13 @@ The CPU fan curve was adjusted as follows:
 
 * Most of the time, while idling or doing light work, the temperature sits between 40 and 50ºC and the fan duty cycle is fixed at 20%. At that speed the fan is inaudible.
 
-* Ocassionaly, while doing some more serious work, the temperature rises between 50 and 60ºC and the fan speed slowly increases until it reaches 40% duty cycle when the temperature is at 60ºC. At those speeds you start hearing the fan although it is still very quiet.
+* Occasionaly, while doing some more serious work, the temperature rises between 50 and 60ºC and the fan speed slowly increases until it reaches 40% duty cycle when the temperature is at 60ºC. At those speeds you start hearing the fan although it is still very quiet.
 
 * If the temperature rises over 60ºC, the duty cycle starts increasing more quickly until it reaches 100% at 75ºC. At those speeds the fan is noisy but it is not a problem since this situation doesn't usually occur except when I am playing a demanding game.
 
 ## Adjusting the GPU fan curve
 
-Adjusting the GPU fans was more tricky, especially on a Linux based OS. On Linux, this GPU uses the amdgpu driver. With this driver the temperature and fans speed can be controlled and monitored throught specific files:
+Adjusting the GPU fans was trickier, especially on a Linux based OS. On Linux, this GPU uses the amdgpu driver. With this driver the temperature and fans speed can be controlled and monitored throught specific files:
 
 To see the current GPU temperature (in ºC * 1000), you can use:
 
@@ -189,7 +189,7 @@ To change the PWM duty cycle:
 
 You can use a range of 0 to 255 for the duty cycle. 0 means the fans will stop, 255 means the fans will run at full speed. The 5 in hwmon5 may be a different number in your system.
 
-I'm using [this bash script] that automates the process. The installation method my vary depending on your distribution. Once installed, the fan curve can be set in a configuration file:
+I'm using [this bash script] that automates the process. The installation method may vary depending on your distribution. Once installed, the fan curve can be set in a configuration file:
 
 ![][fancontrol]
 

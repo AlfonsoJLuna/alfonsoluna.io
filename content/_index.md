@@ -1,4 +1,4 @@
 +++
 title = "Home"
-description = ""
+description = "Embedded projects in my free time"
 +++
