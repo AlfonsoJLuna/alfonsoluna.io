@@ -6,10 +6,19 @@
     <description>Recent content in Posts on alfonsoluna.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Feb 2020 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2020 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://alfonsoluna.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PC</title>
+      <link>https://alfonsoluna.io/posts/pc/</link>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://alfonsoluna.io/posts/pc/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Web</title>

@@ -2,12 +2,12 @@
 
 <section class="section">
 	<div class="container">
-        <div class="tags are-medium is-capitalized">
-            <a class="tag {{ if eq .Title "Posts" }}has-background-grey-lighter{{ end }}" href="/posts/">all</a>
+        <div class="tags are-medium">
+            <a class="tag {{ if eq .Title "Posts" }}has-background-grey-lighter{{ end }}" href="/posts/">All</a>
             {{ range $name, $taxonomy := .Site.Taxonomies.posts }}
                         {{ $name_url := $name | urlize }}
                 {{ $name_url := printf "%s%s%s" "/" $name_url "/" }}
-                <a class="tag {{ if findRE $name_url $page_url }}has-background-grey-lighter{{ end }}" href="{{ "/posts/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a>
+                <a class="tag {{ if findRE $name_url $page_url }}has-background-grey-lighter{{ end }}" href="{{ "/posts/" | relLangURL }}{{ $name | urlize }}">{{ .Page.Title }}</a>
             {{ end }}
         </div>
 	</div>
