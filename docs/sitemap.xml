@@ -8,7 +8,7 @@
   </url>
   
   <url>
-    <loc>https://alfonsoluna.io/posts/pc/</loc>
+    <loc>https://alfonsoluna.io/tags/pc/</loc>
     <lastmod>2020-03-21T00:00:00+01:00</lastmod>
   </url>
   
@@ -23,17 +23,31 @@
   </url>
   
   <url>
+    <loc>https://alfonsoluna.io/tags/</loc>
+    <lastmod>2020-03-21T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://alfonsoluna.io/hello-world/</loc>
     <lastmod>2020-02-16T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://alfonsoluna.io/posts/web/</loc>
+    <loc>https://alfonsoluna.io/tags/hugo/</loc>
+    <lastmod>2020-02-16T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alfonsoluna.io/tags/web/</loc>
     <lastmod>2020-02-16T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://alfonsoluna.io/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://alfonsoluna.io/archive/</loc>
   </url>
   
   <url>

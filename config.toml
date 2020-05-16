@@ -1,17 +1,72 @@
 baseURL = "https://alfonsoluna.io/"
 languageCode = "en"
 publishDir = "docs"
-theme = "mytheme"
+theme = "hello-friend"
 title = "alfonsoluna.io"
+paginate = 5
 
 [params]
-	authorName = "Alfonso Luna"
-	avatar = "https://avatars1.githubusercontent.com/u/10271168"
-	twitterProfile = "https://twitter.com/AlfonsoJLuna"
-	githubProfile = "https://github.com/AlfonsoJLuna"
-	youtubeProfile = "https://www.youtube.com/channel/UCeMzdV89IlbByrYXtOXnoEA"
-	linkedinProfile = "https://www.linkedin.com/in/alfonsojluna/"
-	tindieProfile = "https://www.tindie.com/stores/alfonsojluna/"
+  images = ["/img/ogimage.png"]
+  contentTypeName = "posts"
+  defaultTheme = "light"
+  showMenuItems = 3
+  showReadingTime = true
 
 [taxonomies]
-	post = "posts"
+  tag = "tags"
+
+[permalinks]
+  posts = "/:title/"
+
+[languages]
+  [languages.en]
+    title = "alfonsoluna.io"
+    subtitle = ""
+    keywords = ""
+    copyright = ""
+    menuMore = "More"
+    writtenBy = "Written by"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "2006-01-02"
+    dateFormatList = "2006-01-02"
+    lastModDisplay = ""
+
+    [languages.en.params.logo]
+      logoText = "alfonsoluna.io"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts"
+        weight = -150
+      [[languages.en.menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "/projects"
+        weight = -140
+      [[languages.en.menu.main]]
+        identifier = "tutorials"
+        name = "Tutorials"
+        url = "/tutorials"
+        weight = -130
+      [[languages.en.menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags"
+        weight = -120
+      [[languages.en.menu.main]]
+        identifier = "archive"
+        name = "Archive"
+        url = "/archive"
+        weight = -110
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+        weight = -100

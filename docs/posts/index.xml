@@ -12,21 +12,23 @@
     
     
     <item>
-      <title>PC</title>
-      <link>https://alfonsoluna.io/posts/pc/</link>
+      <title>SFF PC</title>
+      <link>https://alfonsoluna.io/sff-pc/</link>
       <pubDate>Sat, 21 Mar 2020 00:00:00 +0100</pubDate>
       
-      <guid>https://alfonsoluna.io/posts/pc/</guid>
-      <description></description>
+      <guid>https://alfonsoluna.io/sff-pc/</guid>
+      <description>It was time to upgrade my desktop computer, and for this I wanted to assemble a PC as small and silent as possible, while keeping it relatively powerful and with enough space for a full-fledged graphics card.
+The term Small Form Factor refers to desktop computers which use smaller size components in order to minimize their volume. To achieve that, these computers usually rely on form factors that are smaller than the typical ones.</description>
     </item>
     
     <item>
-      <title>Web</title>
-      <link>https://alfonsoluna.io/posts/web/</link>
+      <title>Hello, world!</title>
+      <link>https://alfonsoluna.io/hello-world/</link>
       <pubDate>Sun, 16 Feb 2020 00:00:00 +0100</pubDate>
       
-      <guid>https://alfonsoluna.io/posts/web/</guid>
-      <description></description>
+      <guid>https://alfonsoluna.io/hello-world/</guid>
+      <description>I have been considering to create a personal website for some time now. The idea is to have a place where I can write about the projects I do in my free time, as well as show them and provide related tutorials and documentation. I think it could be interesting or useful for other people.
+Static or dynamic websites After giving a try to more popular options such as Wordpress, I arrived at the conclusion that a static website will be better suited, due to the fact that my needs were simpler.</description>
     </item>
     
   </channel>
