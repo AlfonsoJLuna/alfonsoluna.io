@@ -25,9 +25,10 @@
 {{ template "_internal/opengraph.html" . }}
 
 <!-- RSS | JSON -->
-{{ range .AlternativeOutputFormats -}}
+<!--{{ range .AlternativeOutputFormats -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
-{{ end -}}
+{{ end -}}-->
+<link rel="alternate" type="application/rss+xml" href="/posts/index.xml" title="{{ .Site.Title }}">
 
 <!-- head custom -->
 {{- partial "extended_head.html" . }}
