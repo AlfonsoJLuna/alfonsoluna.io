@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>alfonsoluna.io</title>
+    <title>Hi! on alfonsoluna.io</title>
     <link>https://alfonsoluna.io/</link>
-    <description>Recent content on alfonsoluna.io</description>
+    <description>Recent content in Hi! on alfonsoluna.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Mar 2020 00:00:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://alfonsoluna.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 21 Mar 2020 00:00:00 +0100</lastBuildDate><atom:link href="https://alfonsoluna.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SFF PC</title>
       <link>https://alfonsoluna.io/sff-pc/</link>
@@ -32,25 +28,13 @@ Static or dynamic websites After giving a try to more popular options such as Wo
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://alfonsoluna.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://alfonsoluna.io/about/</guid>
-      <description>Hola! I&amp;rsquo;m Alfonso. I&amp;rsquo;m an Electronics Engineer currently living in Murcia, Spain.
-I like to develop open-source projects in my free time, this site is the main hub where I write about these projects. Most of them are related to electronics, computers and retro gaming, but you can really expect anything.
-For staying up to date on new posts, you may want to subscribe to the RSS feed.
-Social networks You can also follow me on these sites:</description>
-    </item>
-    
-    <item>
       <title>Projects</title>
       <link>https://alfonsoluna.io/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://alfonsoluna.io/projects/</guid>
-      <description>I like to work on personal projects in my free time. Most of them are open-source. Here is a list of the most relevant ones, in different states of completion.
-Electronics  openhandheld-mx — An open-source STM32 development board in the shape of a handheld game console. chip8stm32 — STM32 based CHIP-8 and Super-CHIP handheld emulator device.  Emulation  nesswemu — A NES emulator in an early stage of development.</description>
+      <description>Here is a selection of some of my latest projects, most of them are open-source:
+Electronics  openhandheld-mx — An open-source STM32 development board in the shape of a handheld game console. chip8stm32 — STM32 based CHIP-8 and Super-CHIP handheld emulator device.  Emulation  nesswemu — A NES emulator in an early stage of development. Currently only the MOS 6502 interpreter is implemented. chip8swemu — Multiplatform CHIP-8 and Super-CHIP emulator written in C.</description>
     </item>
     
     <item>

@@ -2,7 +2,7 @@
 title = "Projects"
 +++
 
-I like to work on personal projects in my free time. Most of them are open-source. Here is a list of the most relevant ones, in different states of completion.
+Here is a selection of some of my latest projects, most of them are open-source:
 
 ## Electronics
 
@@ -17,3 +17,5 @@ I like to work on personal projects in my free time. Most of them are open-sourc
 ## Others
 
 * [minesweeper](https://github.com/AlfonsoJLuna/minesweeper) — A clone of the classic Minesweeper game written in C using SDL2.
+
+More projects can be found on my [GitHub](https://github.com/AlfonsoJLuna?tab=repositories).

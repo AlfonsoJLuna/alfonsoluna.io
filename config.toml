@@ -13,7 +13,7 @@ copyright = "Licensed under CC BY-SA 4.0."
   images = ["/img/ogimage.png"]
   contentTypeName = "posts"
   defaultTheme = "light"
-  showMenuItems = 4
+  showMenuItems = 3
   showReadingTime = true
 
 [taxonomies]
@@ -48,19 +48,14 @@ copyright = "Licensed under CC BY-SA 4.0."
         identifier = "posts"
         name = "Posts"
         url = "/posts"
-        weight = -130
+        weight = -120
       [[languages.en.menu.main]]
         identifier = "projects"
         name = "Projects"
         url = "/projects"
-        weight = -120
+        weight = -110
       [[languages.en.menu.main]]
         identifier = "tutorials"
         name = "Tutorials"
         url = "/tutorials"
-        weight = -110
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
         weight = -100

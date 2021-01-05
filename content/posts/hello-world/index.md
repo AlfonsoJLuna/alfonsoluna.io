@@ -1,7 +1,7 @@
 +++
 date = 2020-02-16
 title = "Hello, world!"
-description = "Starting a static website with Hugo"
+description = "Creating a static website with Hugo"
 useRelativeCover = true
 cover = "gohugo.jpg"
 images = ["/hello-world/gohugo.jpg"]
