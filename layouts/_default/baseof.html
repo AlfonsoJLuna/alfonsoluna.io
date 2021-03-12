@@ -23,5 +23,9 @@
     {{ if $.Site.GoogleAnalytics }}
       {{ template "_internal/google_analytics.html" . }}
     {{ end }}
+
+    {{ if .Params.Comments }}
+      {{ partial "commento-scripts.html" . }}
+    {{ end }}
   </body>
 </html>

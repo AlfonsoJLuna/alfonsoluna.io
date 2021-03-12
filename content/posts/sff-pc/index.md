@@ -6,6 +6,7 @@ useRelativeCover = true
 cover = "finished-pc-front.jpg"
 images = ["/sff-pc/finished-pc-front.jpg"]
 tags = ["pc"]
+comments = true
 +++
 
 It was time to upgrade my desktop computer, and for this I wanted to assemble a PC as small and silent as possible, while keeping it relatively powerful and with enough space for a full-fledged graphics card.

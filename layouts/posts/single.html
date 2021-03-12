@@ -21,6 +21,10 @@
       {{ if $.Site.Params.ShowReadingTime }}
         <span class="post-read-time">— {{ .ReadingTime }} {{ $.Site.Params.MinuteReadingTime | default "min read" }}</span>
       {{ end }}
+
+      {{ if .Params.Comments }}
+        — <a href="#commento"></a>
+      {{ end }}
     </div>
 
     {{ if .Params.tags }}
@@ -71,12 +75,8 @@
       {{ end }}
     {{ end }}
 
-
-    {{ if not (eq .Params.Comments "false") }}
-      {{ if or (eq .Type $.Site.Params.contentTypeName) (.Params.Comments) }}
-        {{ partial "comments.html" . }}
-      {{ end }}
+    {{ if .Params.Comments }}
+      <div id="commento"></div>
     {{ end }}
-
-    </div>
+  </div>
 {{ end }}

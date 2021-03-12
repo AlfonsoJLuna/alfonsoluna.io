@@ -36,10 +36,10 @@
 <meta property="og:title" content="Hello, world!" />
 <meta property="og:description" content="Creating a static website with Hugo" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://alfonsoluna.io/hello-world/" />
-<meta property="og:image" content="https://alfonsoluna.io/hello-world/gohugo.jpg" />
-<meta property="article:published_time" content="2020-02-16T00:00:00+01:00" />
-<meta property="article:modified_time" content="2020-02-16T00:00:00+01:00" /><meta property="og:site_name" content="alfonsoluna.io" />
+<meta property="og:url" content="https://alfonsoluna.io/hello-world/" /><meta property="og:image" content="https://alfonsoluna.io/hello-world/gohugo.jpg" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2020-02-16T00:00:00&#43;01:00" />
+<meta property="article:modified_time" content="2020-02-16T00:00:00&#43;01:00" /><meta property="og:site_name" content="alfonsoluna.io" />
+
 
 
 
@@ -146,6 +146,10 @@
       
         <span class="post-read-time">— 3 min read</span>
       
+
+      
+        — <a href="#commento"></a>
+      
     </div>
 
     
@@ -202,15 +206,10 @@
       
     
 
-
     
-      
-        
-
-      
+      <div id="commento"></div>
     
-
-    </div>
+  </div>
 
       </div>
 
@@ -243,6 +242,24 @@
 
       
     </div>
+
+    
+
+    
+      <script>
+    window.commentoCustomText = function(count) {
+      if(count === 0) {
+        return "Leave a comment";
+      } else if (count === 1) {
+        return "1 comment";
+      } else {
+        return count + " comments";
+      }
+    }
+</script>
+
+<script defer src="https://commento.alfonsoluna.io/js/commento.js"></script>
+<script defer src="https://commento.alfonsoluna.io/js/count.js" data-custom-text="window.commentoCustomText"></script>
 
     
   </body>

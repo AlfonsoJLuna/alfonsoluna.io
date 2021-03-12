@@ -6,6 +6,7 @@ useRelativeCover = true
 cover = "gohugo.jpg"
 images = ["/hello-world/gohugo.jpg"]
 tags = ["hugo", "web"]
+comments = true
 +++
 
 I have been considering to create a personal website for some time now. The idea is to have a place where I can write about the projects I do in my free time, as well as show them and provide related tutorials and documentation. I think it could be interesting or useful for other people.
