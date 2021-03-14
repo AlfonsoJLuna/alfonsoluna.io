@@ -1,8 +1,8 @@
-baseURL = "https://alfonsoluna.io/"
+baseURL = "https://lunaembedded.com/"
 languageCode = "en"
 publishDir = "docs"
 theme = "hello-friend"
-title = "alfonsoluna.io"
+title = "lunaembedded.com"
 paginate = 5
 copyright = "Licensed under CC BY-SA 4.0."
 
@@ -24,7 +24,7 @@ copyright = "Licensed under CC BY-SA 4.0."
 
 [languages]
   [languages.en]
-    title = "alfonsoluna.io"
+    title = "lunaembedded.com"
     subtitle = ""
     keywords = ""
     copyright = ""
@@ -40,7 +40,7 @@ copyright = "Licensed under CC BY-SA 4.0."
     lastModDisplay = ""
 
     [languages.en.params.logo]
-      logoText = "alfonsoluna.io"
+      logoText = "lunaembedded.com"
       logoHomeLink = "/"
 
     [languages.en.menu]

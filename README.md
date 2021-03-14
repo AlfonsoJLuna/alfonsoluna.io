@@ -1,6 +1,6 @@
-# alfonsoluna.io
+# lunaembedded.com
 
-This repo is used for hosting my personal website: [https://alfonsoluna.io/](https://alfonsoluna.io/)
+This repo is used for hosting my personal website: [https://lunaembedded.com/](https://lunaembedded.com/)
 
 The site is statically built with [Hugo](https://gohugo.io/), uses [Hello Friend](https://github.com/panr/hugo-theme-hello-friend) for theming and is published with GitHub Pages.
 
