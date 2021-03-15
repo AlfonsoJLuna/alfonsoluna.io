@@ -1,30 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on lunaembedded.com</title>
+    <title>Posts on LUNAEmbedded</title>
     <link>https://lunaembedded.com/posts/</link>
-    <description>Recent content in Posts on lunaembedded.com</description>
+    <description>Recent content in Posts on LUNAEmbedded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 21 Mar 2020 00:00:00 +0100</lastBuildDate><atom:link href="https://lunaembedded.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>SFF PC</title>
-      <link>https://lunaembedded.com/sff-pc/</link>
+      <title>PC</title>
+      <link>https://lunaembedded.com/posts/pc/</link>
       <pubDate>Sat, 21 Mar 2020 00:00:00 +0100</pubDate>
       
-      <guid>https://lunaembedded.com/sff-pc/</guid>
-      <description>It was time to upgrade my desktop computer, and for this I wanted to assemble a PC as small and silent as possible, while keeping it relatively powerful and with enough space for a full-fledged graphics card.
-The term Small Form Factor refers to desktop computers which use smaller size components in order to minimize their volume. To achieve that, these computers usually rely on form factors that are smaller than the typical ones.</description>
+      <guid>https://lunaembedded.com/posts/pc/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Hello, world!</title>
-      <link>https://lunaembedded.com/hello-world/</link>
+      <title>Web</title>
+      <link>https://lunaembedded.com/posts/web/</link>
       <pubDate>Sun, 16 Feb 2020 00:00:00 +0100</pubDate>
       
-      <guid>https://lunaembedded.com/hello-world/</guid>
-      <description>I have been considering to create a personal website for some time now. The idea is to have a place where I can write about the projects I do in my free time, as well as show them and provide related tutorials and documentation. I think it could be interesting or useful for other people.
-Static or dynamic websites After giving a try to more popular options such as Wordpress, I arrived at the conclusion that a static website will be better suited, due to the fact that my needs were simpler.</description>
+      <guid>https://lunaembedded.com/posts/web/</guid>
+      <description></description>
     </item>
     
   </channel>

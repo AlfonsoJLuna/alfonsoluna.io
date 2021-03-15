@@ -1,0 +1,40 @@
+<script>
+	document.addEventListener('DOMContentLoaded', () => {
+    	const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+    	if ($navbarBurgers.length > 0) {
+    	$navbarBurgers.forEach( el => {
+        	el.addEventListener('click', () => {
+        		const target = el.dataset.target;
+            	const $target = document.getElementById(target);
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+          	});
+        });
+      }
+    });
+</script>
+
+<script>
+	document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
+
+{{ if .Params.Comments }}
+	<script>
+		window.commentoCustomText = function(count) {
+		if(count === 0) {
+			return "Leave a comment";
+		} else if (count === 1) {
+			return "1 comment";
+		} else {
+			return count + " comments";
+		}
+		}
+	</script>
+
+	<script defer src="https://commento.lunaembedded.com/js/commento.js"></script>
+
+	<script defer src="https://commento.lunaembedded.com/js/count.js" data-custom-text="window.commentoCustomText"></script>
+{{ end }}
+
+</body>
+</html>

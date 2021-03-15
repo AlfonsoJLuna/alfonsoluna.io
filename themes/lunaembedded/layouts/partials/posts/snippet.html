@@ -1,0 +1,17 @@
+<div class="column is-half-tablet is-one-third-desktop">
+    <a class="has-text-dark" href="{{ .Permalink }}">
+        <div class="card">
+            <div class="card-image">
+                <figure class="image is-5by3 bg-img" style="background-image: url('/images/posts{{ .RelPermalink }}background.jpg')"></figure>
+            </div>
+            <div class="card-content">
+                <p class="title is-size-4">{{ .Title }}</p>
+                <p class="subtitle is-size-6">{{ .Description }}</p>
+                <p class="has-text-grey is-size-6">
+                    <span class="icon"><i class="far fa-calendar"></i></span>
+                    <span>{{ .Date.Format "02/01/2006" }}</span>
+                </p>
+            </div>
+        </div>
+    </a>
+</div>

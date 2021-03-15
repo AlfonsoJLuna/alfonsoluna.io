@@ -1,0 +1,48 @@
+{{ partial "top/basic-top.html" . }}
+
+<div class="bg-img" style="background-image: url('/images/posts{{ .RelPermalink }}background.jpg')">
+	<div class="bg-img-container-posts">
+		<section class="hero is-medium">
+			<div class="hero-body">
+				<div class="container">
+					<div class="columns is-centered">
+						<div class="column is-12-mobile is-10-tablet is-9-desktop is-8-widescreen is-7-fullhd">
+							<div class="container">
+								<h1 class="title is-1 has-text-white-ter">{{ .Title }}</h1>
+								<h2 class="subtitle is-3 has-text-white-ter">{{ .Description }}</h2>
+								<p class="is-size-5 has-text-white-ter">
+									<span class="icon"><i class="far fa-calendar"></i></span>
+									<span class="pr-3">{{.Date.Format "02/01/2006"}}</span>
+									<span class="icon"><i class="far fa-clock"></i></span>
+									<span class="pr-3">{{ .ReadingTime }} min read</span>
+									{{ if .Params.Comments }}
+										<span class="icon"><i class="far fa-comments"></i></span>
+										<span><a class="has-text-white-ter" href="#commento"></a></span>
+									{{ end }}
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</div>
+
+<section class="section has-background-white-bis">
+	<div class="container">
+		<div class="columns is-centered is-multiline is-variable is-7">
+			<div class="column is-12-mobile is-10-tablet is-9-desktop is-8-widescreen is-7-fullhd">
+				<div class="content has-text-justified">
+					{{ .Content }}
+					{{ if .Params.Comments }}
+						<h2>Comments</h2>
+						<div id="commento"></div>
+					{{ end }}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+{{ partial "bottom/basic-bottom.html" . }}

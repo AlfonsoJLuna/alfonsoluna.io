@@ -1,61 +1,19 @@
 baseURL = "https://lunaembedded.com/"
 languageCode = "en"
 publishDir = "docs"
-theme = "hello-friend"
-title = "lunaembedded.com"
-paginate = 5
-copyright = "Licensed under CC BY-SA 4.0."
+theme = "lunaembedded"
+title = "LUNAEmbedded"
 
-[author]
-  name = "Alfonso Luna"
-    
 [params]
-  images = ["/img/ogimage.png"]
-  contentTypeName = "posts"
-  defaultTheme = "light"
-  showMenuItems = 3
-  showReadingTime = true
+	authorName = "Alfonso Luna"
+	avatar = "https://avatars1.githubusercontent.com/u/10271168"
+	twitterProfile = "https://twitter.com/AlfonsoJLuna"
+	instagramProfile = ""
+	githubProfile = "https://github.com/AlfonsoJLuna"
+	youtubeProfile = "https://www.youtube.com/channel/UCeMzdV89IlbByrYXtOXnoEA"
+	linkedinProfile = ""
+	tindieProfile = "https://www.tindie.com/stores/lunaembedded/"
+	email = ""
 
 [taxonomies]
-  tag = "tags"
-
-[permalinks]
-  posts = "/:title/"
-
-[languages]
-  [languages.en]
-    title = "lunaembedded.com"
-    subtitle = ""
-    keywords = ""
-    copyright = ""
-    menuMore = "More"
-    writtenBy = "Written by"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    minuteReadingTime = "min read"
-    dateFormatSingle = "2006-01-02"
-    dateFormatList = "2006-01-02"
-    lastModDisplay = ""
-
-    [languages.en.params.logo]
-      logoText = "lunaembedded.com"
-      logoHomeLink = "/"
-
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "posts"
-        name = "Posts"
-        url = "/posts"
-        weight = -120
-      [[languages.en.menu.main]]
-        identifier = "projects"
-        name = "Projects"
-        url = "/projects"
-        weight = -110
-      [[languages.en.menu.main]]
-        identifier = "tutorials"
-        name = "Tutorials"
-        url = "/tutorials"
-        weight = -100
+	post = "posts"

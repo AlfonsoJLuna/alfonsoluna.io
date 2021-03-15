@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hi! on lunaembedded.com</title>
+    <title>Home on LUNAEmbedded</title>
     <link>https://lunaembedded.com/</link>
-    <description>Recent content in Hi! on lunaembedded.com</description>
+    <description>Recent content in Home on LUNAEmbedded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 21 Mar 2020 00:00:00 +0100</lastBuildDate><atom:link href="https://lunaembedded.com/index.xml" rel="self" type="application/rss+xml" />
@@ -25,25 +25,6 @@ The term Small Form Factor refers to desktop computers which use smaller size co
       <guid>https://lunaembedded.com/hello-world/</guid>
       <description>I have been considering to create a personal website for some time now. The idea is to have a place where I can write about the projects I do in my free time, as well as show them and provide related tutorials and documentation. I think it could be interesting or useful for other people.
 Static or dynamic websites After giving a try to more popular options such as Wordpress, I arrived at the conclusion that a static website will be better suited, due to the fact that my needs were simpler.</description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>https://lunaembedded.com/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaembedded.com/projects/</guid>
-      <description>Here is a selection of some of my latest projects, most of them are open-source:
-Electronics  openhandheld-mx — An open-source STM32 development board in the shape of a handheld game console. chip8stm32 — STM32 based CHIP-8 and Super-CHIP handheld emulator device.  Emulation  nesswemu — A NES emulator in an early stage of development. Currently only the MOS 6502 interpreter is implemented. chip8swemu — Multiplatform CHIP-8 and Super-CHIP emulator written in C.</description>
-    </item>
-    
-    <item>
-      <title>Tutorials</title>
-      <link>https://lunaembedded.com/tutorials/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lunaembedded.com/tutorials/</guid>
-      <description>Coming soon! Stay tuned.</description>
     </item>
     
   </channel>
