@@ -6,7 +6,25 @@
     <description>Recent content in Home on LUNAEmbedded</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Mar 2020 00:00:00 +0100</lastBuildDate><atom:link href="https://lunaembedded.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Dec 2020 00:00:00 +0100</lastBuildDate><atom:link href="https://lunaembedded.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reflow Oven Controller</title>
+      <link>https://lunaembedded.com/reflow-oven/</link>
+      <pubDate>Sun, 20 Dec 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://lunaembedded.com/reflow-oven/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenHandheld MX</title>
+      <link>https://lunaembedded.com/openhandheld-mx/</link>
+      <pubDate>Sun, 22 Mar 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://lunaembedded.com/openhandheld-mx/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>SFF PC</title>
       <link>https://lunaembedded.com/sff-pc/</link>
@@ -15,6 +33,15 @@
       <guid>https://lunaembedded.com/sff-pc/</guid>
       <description>It was time to upgrade my desktop computer, and for this I wanted to assemble a PC as small and silent as possible, while keeping it relatively powerful and with enough space for a full-fledged graphics card.
 The term Small Form Factor refers to desktop computers which use smaller size components in order to minimize their volume. To achieve that, these computers usually rely on form factors that are smaller than the typical ones.</description>
+    </item>
+    
+    <item>
+      <title>CHIP8STM32</title>
+      <link>https://lunaembedded.com/chip8stm32/</link>
+      <pubDate>Sun, 16 Feb 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://lunaembedded.com/chip8stm32/</guid>
+      <description></description>
     </item>
     
     <item>

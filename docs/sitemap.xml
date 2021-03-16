@@ -3,7 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://lunaembedded.com/</loc>
-    <lastmod>2020-03-21T00:00:00+01:00</lastmod>
+    <lastmod>2020-12-20T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://lunaembedded.com/projects/</loc>
+    <lastmod>2020-12-20T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://lunaembedded.com/reflow-oven/</loc>
+    <lastmod>2020-12-20T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://lunaembedded.com/projects/stm32/</loc>
+    <lastmod>2020-12-20T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://lunaembedded.com/projects/tools/</loc>
+    <lastmod>2020-12-20T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://lunaembedded.com/openhandheld-mx/</loc>
+    <lastmod>2020-03-22T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://lunaembedded.com/posts/pc/</loc>
     <lastmod>2020-03-21T00:00:00+01:00</lastmod>
@@ -14,6 +29,12 @@
     <loc>https://lunaembedded.com/sff-pc/</loc>
     <lastmod>2020-03-21T00:00:00+01:00</lastmod>
   </url><url>
+    <loc>https://lunaembedded.com/chip8stm32/</loc>
+    <lastmod>2020-02-16T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://lunaembedded.com/projects/emulation/</loc>
+    <lastmod>2020-02-16T00:00:00+01:00</lastmod>
+  </url><url>
     <loc>https://lunaembedded.com/hello-world/</loc>
     <lastmod>2020-02-16T00:00:00+01:00</lastmod>
   </url><url>
@@ -21,8 +42,6 @@
     <lastmod>2020-02-16T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://lunaembedded.com/about/</loc>
-  </url><url>
-    <loc>https://lunaembedded.com/projects/</loc>
   </url><url>
     <loc>https://lunaembedded.com/tutorials/</loc>
   </url>

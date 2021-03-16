@@ -17,4 +17,5 @@ title = "LUNAEmbedded"
 	email = ""
 
 [taxonomies]
+	project = "projects"
 	post = "posts"

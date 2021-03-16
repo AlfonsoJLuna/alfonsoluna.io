@@ -5,6 +5,34 @@
     <link>https://lunaembedded.com/projects/</link>
     <description>Recent content in Projects on LUNAEmbedded</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://lunaembedded.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 20 Dec 2020 00:00:00 +0100</lastBuildDate><atom:link href="https://lunaembedded.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>STM32</title>
+      <link>https://lunaembedded.com/projects/stm32/</link>
+      <pubDate>Sun, 20 Dec 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://lunaembedded.com/projects/stm32/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>https://lunaembedded.com/projects/tools/</link>
+      <pubDate>Sun, 20 Dec 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://lunaembedded.com/projects/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emulation</title>
+      <link>https://lunaembedded.com/projects/emulation/</link>
+      <pubDate>Sun, 16 Feb 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://lunaembedded.com/projects/emulation/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

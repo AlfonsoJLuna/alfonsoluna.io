@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>STM32 on LUNAEmbedded</title>
+    <link>https://lunaembedded.com/projects/stm32/</link>
+    <description>Recent content in STM32 on LUNAEmbedded</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 20 Dec 2020 00:00:00 +0100</lastBuildDate><atom:link href="https://lunaembedded.com/projects/stm32/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reflow Oven Controller</title>
+      <link>https://lunaembedded.com/reflow-oven/</link>
+      <pubDate>Sun, 20 Dec 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://lunaembedded.com/reflow-oven/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenHandheld MX</title>
+      <link>https://lunaembedded.com/openhandheld-mx/</link>
+      <pubDate>Sun, 22 Mar 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://lunaembedded.com/openhandheld-mx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CHIP8STM32</title>
+      <link>https://lunaembedded.com/chip8stm32/</link>
+      <pubDate>Sun, 16 Feb 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://lunaembedded.com/chip8stm32/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

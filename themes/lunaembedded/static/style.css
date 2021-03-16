@@ -23,3 +23,14 @@ body {
 .bg-img-container-home {
   background: rgba(0,0,50,0.2);
 }
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-above-buttons {
+  height: 100%;
+  padding-bottom: 0;
+}

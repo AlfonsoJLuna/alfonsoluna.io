@@ -1,0 +1,39 @@
+<div class="column is-half-tablet is-one-third-desktop">
+	<div class="card">
+		<div class="card-image">
+			<figure class="image is-5by3 bg-img" style="background-image: url('{{ .RelPermalink }}background.jpg')"></figure>
+		</div>
+		<div class="card-content content-above-buttons">
+			<p class="title is-size-4">{{ .Title }}</p>
+			<div class="content">{{ .Description }}</div>
+		</div>
+		<div class="card-content">
+			<div class="field is-grouped">
+				{{ if .Params.buyLink }}
+					<p class="control">
+						<a class="button is-dark is-outlined" href="{{ .Params.buyLink }}" target="_blank">
+							<span class="icon is-small"><i class="fas fa-shopping-cart"></i></span>
+							<span>Buy</span>
+						</a>
+					</p>
+				{{ end }}
+				{{ if .Params.docsLink }}
+					<p class="control">
+						<a class="button is-dark is-outlined" href="{{ .Params.docsLink }}">
+							<span class="icon is-small"><i class="fas fa-book"></i></span>
+							<span>Docs</span>
+						</a>
+					</p>
+				{{ end }}
+				{{ if .Params.repoLink }}
+					<p class="control">
+						<a class="button is-dark is-outlined" href="{{ .Params.repoLink }}" target="_blank">
+							<span class="icon is-small"><i class="fab fa-github"></i></span>
+							<span>Repo</span>
+						</a>
+					</p>
+				{{ end }}
+			</div>
+		</div>
+	</div>
+</div>
