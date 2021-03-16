@@ -6,6 +6,7 @@ title = "LUNAEmbedded"
 
 [params]
 	authorName = "Alfonso Luna"
+	description = "Learn modern embedded systems development"
 	avatar = "https://avatars1.githubusercontent.com/u/10271168"
 	twitterProfile = "https://twitter.com/AlfonsoJLuna"
 	instagramProfile = ""
