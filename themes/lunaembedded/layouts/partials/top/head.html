@@ -20,12 +20,12 @@
 
 	{{ if .IsPage }}
 		{{ if or (findRE "/posts/" .RelPermalink) .Params.posts }}
-			<meta property="og:image" content="/images/posts{{ .RelPermalink }}background.jpg">
+			<meta property="og:image" content="{{ .RelPermalink }}background.jpg">
 		{{ else }}
-			<meta property="og:image" content="/images/background.png">
+			<meta property="og:image" content="/img/hero.jpg">
 		{{ end }}
 	{{ else }}
-		<meta property="og:image" content="/images/background.png">
+		<meta property="og:image" content="/img/hero.jpg">
 	{{ end }}
 
 	<meta name="theme-color" content="#000000">
@@ -37,8 +37,8 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" crossorigin="anonymous">
 	<link rel="stylesheet" href="/style.css">
 	
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "images/apple-touch-icon-144-precomposed.png" | absURL }}">
-	<link rel="shortcut icon" href="{{ "images/favicon.png" | absURL }}">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "img/apple-touch-icon-144-precomposed.png" | absURL }}">
+	<link rel="shortcut icon" href="{{ "img/favicon.png" | absURL }}">
 
 	<link rel="alternate" type="application/rss+xml" href="/index.xml" title="{{ .Site.Title }}">
 	<link rel="feed" type="application/rss+xml" href="/index.xml" title="{{ .Site.Title }}">

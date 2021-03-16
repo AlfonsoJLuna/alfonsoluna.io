@@ -1,5 +1,6 @@
 +++
 date = 2020-02-16
+slug = "hello-world"
 title = "Hello, world!"
 description = "Starting a static website with Hugo"
 posts = ["Web"]

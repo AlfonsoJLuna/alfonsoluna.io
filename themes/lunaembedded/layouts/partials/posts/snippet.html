@@ -2,7 +2,7 @@
     <a class="has-text-dark" href="{{ .Permalink }}">
         <div class="card">
             <div class="card-image">
-                <figure class="image is-5by3 bg-img" style="background-image: url('/images/posts{{ .RelPermalink }}background.jpg')"></figure>
+                <figure class="image is-5by3 bg-img" style="background-image: url('{{ .RelPermalink }}background.jpg')"></figure>
             </div>
             <div class="card-content">
                 <p class="title is-size-4">{{ .Title }}</p>
